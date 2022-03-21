@@ -13,3 +13,8 @@
 - Open document by holding `Option` key and `click` on variables, functions.
 - Center the button using autolayout by adding `Horizontal in Center` and `Vertical in Center` constraints.
 - Update misplaced view by selecting yellow arrow in document outline and update the view's frame.
+- To open preview, press `Command + Option + Enter`.
+- To hide/show left sidebar, press `Command + 0` and right sidebar, press `Command + Option + 0`.
+
+## 22 Mar 2022
+- To create spacing constraints, Click `Add New Constraints` or `Control + drag` object to the view.
