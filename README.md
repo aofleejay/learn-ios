@@ -18,3 +18,4 @@
 
 ## 22 Mar 2022
 - To create spacing constraints, Click `Add New Constraints` or `Control + drag` object to the view.
+- To edit constraints, Double click on the blue line or edit the constraint's value in the attribute inspector panel.
