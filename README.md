@@ -19,3 +19,11 @@
 ## 22 Mar 2022
 - To create spacing constraints, Click `Add New Constraints` or `Control + drag` object to the view.
 - To edit constraints, Double click on the blue line or edit the constraint's value in the attribute inspector panel.
+
+## 27 Mar 2022
+- Learn how to embed objects in a stack view
+  - By adding stack view from object library.
+  - By select multiple objects and select "Embed In".
+- Edit alignment, distribution, spacing of stack view via inspector panel
+- Autoshrink label for small screen by edit "Autoshrink" value in inspector panel.
+- To add images, select "Assets" in project navigator and drag image to set viewer.
