@@ -51,3 +51,9 @@ jobTitle = "Engineer"
 if let jobTitle = jobTitle {
     print("I'm " + jobTitle)
 }
+
+let orangeBox = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+orangeBox.backgroundColor = .orange
+
+let goodbyeMessage = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+goodbyeMessage.text = "Byeeeee"
