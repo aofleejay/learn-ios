@@ -9,7 +9,8 @@
     - [20 Mar 2022](#20-mar-2022)
     - [22 Mar 2022](#22-mar-2022)
     - [27 Mar 2022](#27-mar-2022)
-    - [12 Apr 2022](#12-apr-2022)
+    - [13 Apr 2022](#13-apr-2022)
+    - [14 Apr 2022](#14-apr-2022)
 
 ---
 
@@ -80,11 +81,37 @@
 - Autoshrink label for small screen by edit "Autoshrink" value in inspector panel.
 - To add images, select "Assets" in project navigator and drag image to set viewer.
 
-### 12 Apr 2022
+### 13 Apr 2022
 - Adjust the size of objects for specific screen using size classes.
   - iOS devices have two size classes for width and height that can be either regular or compact.
   - By clicking on `+` button in the inspector panel, you can add size classes to that property.
 - Testing dark mode by clicking on `Environment Overrides` and select dark mode in `Apperance` section.
 - Learn how to use `UITableViewController`.
+- Use `@IBOutlet` to connect objects in storyboard.
+  ```swift
+  @IBOutlet var nameLabel: UILabel!
+  @IBOutlet var locationLabel: UILabel!
+  @IBOutlet var typeLabel: UILabel!
+  @IBOutlet var thumbnailImageView: UIImageView!
+  ```
+
+### 14 Apr 2022
+- Learn to create action sheet using `UIAlertController` and `UIAlertAction`.
+  ```swift
+  let optionMenu = UIAlertController(title: nil, message: "What do you want to do?", preferredStyle: .actionSheet)
+  let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+
+  optionMenu.addAction(cancelAction)
+
+  present(optionMenu, animated: true)
+  ```
+- Use `.actionSheet` to create action sheet and `.alert` to create alert dialiog.
+- Learn closure syntax.
+  ```swift
+  let reserveActionHandler = { (action:UIAlertAction!) -> Void in
+    // Body of the closure.
+  }
+  ```
+- Cell in table view is reusable cell then some state may be persist when it's reused again.
 
 ---
