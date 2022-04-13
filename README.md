@@ -21,6 +21,7 @@
 | `Command + Shift + L`      | Open object library |
 | `Command + D`              | Duplicate object    |
 | `Command + Option + Enter` | Toggle preview      |
+| `Control + I`              | Format code         |
 
 
 ---
@@ -59,5 +60,7 @@
 - Adjust the size of objects for specific screen using size classes.
   - iOS devices have two size classes for width and height that can be either regular or compact.
   - By clicking on `+` button in the inspector panel, you can add size classes to that property.
+- Testing dark mode by clicking on `Environment Overrides` and select dark mode in `Apperance` section.
+- Learn how to use `UITableViewController`.
 
 ---
