@@ -1,5 +1,15 @@
 # learn-ios
 
+## Shortcut
+| Key      |   Description      |
+|----------|:-------------:|
+| `Command + 0` |  toggle navigator |
+| `Command + Option + 0` |    toggle inspector   |
+| `Command + Shift + L` |  Open object library |
+- : 
+- : 
+- :
+
 ## 16 Mar 2022
 - Learn how to use playgrounds.
 - Learn about variables in Swift that have two types: `let` for immutable and `var` for mutable.
@@ -27,3 +37,8 @@
 - Edit alignment, distribution, spacing of stack view via inspector panel
 - Autoshrink label for small screen by edit "Autoshrink" value in inspector panel.
 - To add images, select "Assets" in project navigator and drag image to set viewer.
+
+## 12 APR 2022
+- Adjust the size of objects for specific screen using size classes.
+  - iOS devices have two size classes for width and height that can be either regular or compact.
+  - By clicking on `+` button in the inspector panel, you can add size classes to that property.
