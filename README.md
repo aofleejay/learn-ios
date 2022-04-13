@@ -14,11 +14,13 @@
 ---
 
 ## Shortcut
-| Key                    |     Description     |
-| ---------------------- | :-----------------: |
-| `Command + 0`          |  toggle navigator   |
-| `Command + Option + 0` |  toggle inspector   |
-| `Command + Shift + L`  | Open object library |
+| Key                        | Description         |
+| -------------------------- | ------------------- |
+| `Command + 0`              | Toggle navigator    |
+| `Command + Option + 0`     | Toggle inspector    |
+| `Command + Shift + L`      | Open object library |
+| `Command + D`              | Duplicate object    |
+| `Command + Option + Enter` | Toggle preview      |
 
 
 ---
