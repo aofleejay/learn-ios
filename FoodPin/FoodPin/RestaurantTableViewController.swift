@@ -49,6 +49,7 @@ class RestaurantTableViewController: UITableViewController {
                 cell.thumbnailImageView.image = UIImage(named: self.restaurantImages[indexPath.row])
                 cell.locationLabel.text = self.restaurantLocations[indexPath.row]
                 cell.typeLabel.text = self.restaurantTypes[indexPath.row]
+                cell.favoriteImageView.isHidden = !self.restaurantIsFavorites[indexPath.row]
                 cell.accessoryType = self.restaurantIsFavorites[indexPath.row] ? .checkmark : .none
                 return cell }
         )
@@ -68,9 +69,8 @@ class RestaurantTableViewController: UITableViewController {
         let favoriteTitle = self.restaurantIsFavorites[indexPath.row] ? "Remove favorite" : "Mark as favorite"
         let favoriteAction = UIAlertAction(title: favoriteTitle, style: .default, handler: {
             (action:UIAlertAction!) -> Void in
-            let cell = tableView.cellForRow(at: indexPath)
-            cell?.tintColor = .systemYellow
-            cell?.accessoryType = self.restaurantIsFavorites[indexPath.row] ? .none : .checkmark
+            let cell = tableView.cellForRow(at: indexPath) as! RestaurantTableViewCell
+            cell.favoriteImageView.isHidden = self.restaurantIsFavorites[indexPath.row]
 
             self.restaurantIsFavorites[indexPath.row] = self.restaurantIsFavorites[indexPath.row] ? false : true
         })

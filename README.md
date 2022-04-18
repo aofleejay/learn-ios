@@ -11,6 +11,8 @@
     - [27 Mar 2022](#27-mar-2022)
     - [13 Apr 2022](#13-apr-2022)
     - [14 Apr 2022](#14-apr-2022)
+    - [18 Apr 2022](#18-apr-2022)
+  - [- To hide/show `UIImageView` by setting its `isHidden` property.](#--to-hideshow-uiimageview-by-setting-its-ishidden-property)
 
 ---
 
@@ -114,4 +116,10 @@
   ```
 - Cell in table view is reusable cell then some state may be persist when it's reused again.
 
+### 18 Apr 2022
+- Learn how to cast objects by using `as!`
+  ```swift
+  let cell = tableView.cellForRow(at: indexPath) as! RestaurantTableViewCell
+  ```
+- To hide/show `UIImageView` by setting its `isHidden` property.
 ---
