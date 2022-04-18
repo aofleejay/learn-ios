@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984CD5BD280DB64900E658D2 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CD5BC280DB64900E658D2 /* Restaurant.swift */; };
 		98F419BE28070A67005407C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F419BD28070A67005407C2 /* AppDelegate.swift */; };
 		98F419C028070A67005407C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F419BF28070A67005407C2 /* SceneDelegate.swift */; };
 		98F419C528070A67005407C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F419C328070A67005407C2 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		984CD5BC280DB64900E658D2 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		98F419BA28070A67005407C2 /* FoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F419BD28070A67005407C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F419BF28070A67005407C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				98F419C828070A68005407C2 /* LaunchScreen.storyboard */,
 				98F419CB28070A68005407C2 /* Info.plist */,
 				98F419D128070CB5005407C2 /* RestaurantTableViewController.swift */,
+				984CD5BC280DB64900E658D2 /* Restaurant.swift */,
 				98F419D328071BB8005407C2 /* RestaurantTableViewCell.swift */,
 			);
 			path = FoodPin;
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984CD5BD280DB64900E658D2 /* Restaurant.swift in Sources */,
 				98F419D428071BB8005407C2 /* RestaurantTableViewCell.swift in Sources */,
 				98F419BE28070A67005407C2 /* AppDelegate.swift in Sources */,
 				98F419C028070A67005407C2 /* SceneDelegate.swift in Sources */,

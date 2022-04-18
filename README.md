@@ -121,6 +121,32 @@
   let cell = tableView.cellForRow(at: indexPath) as! RestaurantTableViewCell
   ```
 - To hide/show `UIImageView` by setting its `isHidden` property.
+- Create object by using `struct` and initializer by creating `init` function(s).
+  ```swift
+  struct Restaurant {
+    var name: String
+    var type: String
+    var location: String
+    var image: String
+    var isFavorite: Bool
+    
+    init(name: String, type: String, location: String, image: String, isFavorite: Bool) {
+        self.name = name
+        self.type = type
+        self.location = location
+        self.image = image
+        self.isFavorite = isFavorite
+    }
 
+    init() {
+        self.init(name: "", type: "", location: "", image: "", isFavorite: false)
+    }
+  }
+  ```
+- Struct can have multiple initializers.
+- Create instance of struct without `new` keyword.
+  ```swift
+  Restaurant(name: "Traif", type: "American", location: "New York", image: "traif", isFavorite: false)
+  ```
 
 ---
